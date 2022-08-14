@@ -30,6 +30,6 @@ programmers to find.
 
 Tags:
 ```
-#java #static_method #factory #constructor
+#java #static_method #factory #constructor #factory_method #design_pattern 
 ```
 
