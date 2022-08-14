@@ -1,4 +1,4 @@
-#Java Effective Section 1 item 1
+# Java Effective Section 1 item 1
 
 Advantages And Disadvantages of Static Factory Method :
 
