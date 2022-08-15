@@ -53,5 +53,5 @@ Relateds :
 ```
 Tags :
 ```
- #java #singleton #enum #static_factory #public_final_field #effective-java #design_pattern 
+ #java #singleton #enum #static_factory #public_final_field #effective-java #design_pattern #serialized  
 ```
