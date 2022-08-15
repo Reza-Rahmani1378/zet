@@ -1,11 +1,6 @@
-
-
 # Java Effective Secction 1 item 3
 
-
-
 ## Enforce the singleton property with a private constructor or an enum type
-
 
 A singleton is simply a class that is instantiated exactly once.
 
