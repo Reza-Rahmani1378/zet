@@ -49,7 +49,7 @@ a single-element enum type is often the best way to implement a singleton.
 
 Relateds : 
 ```
- * <a src ="https://docs.oracle.com/javase/specs/jls/se11/html/jls-8.html#jls-8.9"></a>
+ * <https://docs.oracle.com/javase/specs/jls/se11/html/jls-8.html#jls-8.9">
 ```
 Tags :
 ```
