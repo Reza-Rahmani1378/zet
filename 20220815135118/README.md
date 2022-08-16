@@ -18,7 +18,7 @@ the class, and do not have the class create these resources directly. Instead pa
 
 Relateds :
 ```
-*  <https://java-design-patterns.com/patterns/dependency-injection/#:~:text=Dependency%20Injection%20is%20a%20software,part%20of%20the%20client's%20state.>
+ * <https://java-design-patterns.com/patterns/dependency-injection/#:~:text=Dependency%20Injection%20is%20a%20software,part%20of%20the%20client's%20state.>
 
 ```
 
