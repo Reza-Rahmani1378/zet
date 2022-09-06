@@ -1,4 +1,4 @@
-# Java Effective Section 3 Item 10 Part 1
+# Java Effective Section 3 Item 10
 
 ## The easiest way to avoid problems is not to override the equals method:
 
@@ -28,6 +28,39 @@ It is when a class has a notion of logical equality that differs from mere objec
 
 
 - For any non-null reference value x, x.equals(null) must return false.
+
+
+## here’s a recipe for a high-quality equals method:
+
+- **Use the == operator to check if the argument is a reference to this object.**
+
+- **Use the instanceof operator to check if the argument has the correct type.**
+
+- **Cast the argument to the correct type.**
+
+- **For each “significant” field in the class, check if that field of the argument matches the corresponding field of this object.**
+
+
+## Note :
+
+ **When you are finished writing your equals method, ask yourself three questions: Is it symmetric? Is it transitive? Is it consistent?**
+
+
+## Here are a few final caveats:
+
+- **Always override hashCode when you override equals.**
+
+- **Don’t try to be too clever.** If you simply test fields for equality, it’s not hard to adhere to the equals contract.
+
+- **Don’t substitute another type for Object in the equals declaration.**
+
+## In summary :
+ don’t override the equals method unless you have to: in many cases, the implementation inherited from Object does exactly what you want. If you do override equals, make sure to compare all of the class’s significant fields and to compare them in a manner that preserves all five provisions of the equals contract.
+Tags :
+```
+#java #equals #override
+```
+
 
 
 
