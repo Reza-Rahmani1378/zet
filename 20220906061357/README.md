@@ -89,7 +89,7 @@ Finally, we looked at some common code smells that can help us detect violations
 
 Relateds :
 ```
-<https://www.baeldung.com/java-liskov-substitution-principle>
+ https://www.baeldung.com/java-liskov-substitution-principle 
 ```
 
 Tags :
