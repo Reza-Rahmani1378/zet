@@ -8,7 +8,7 @@ second , minute , hour , day of month, month, day(s) of week
 
 | Syntax | Means | Example | Explanation |
 
-| ------ | ----- | ------- | ----------- |
+| ------ | ------ | ------ | ------ |
 
 | *      | math any| "* * * * * *" | do always |
 
