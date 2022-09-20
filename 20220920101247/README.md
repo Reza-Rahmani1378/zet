@@ -7,11 +7,18 @@ second , minute , hour , day of month, month, day(s) of week
 ## Notes :
 
  | Syntax | Means | Example | Explanation |
-
  | ------ | ------ | ------ | ------ |
-
  | * | math any | "* * * * * *" | do always |
-
  | */x | every x | "*/5 * * * * *" | do every five seconds |
-
  | ? | no specification | "0 0 0 25 12 ?" | do every Christmas Day |
+
+
+Tags :
+```
+#spring #cron #expression
+```
+
+Related :
+```
+(https://riptutorial.com/spring/example/21209/cron-expression)
+```
