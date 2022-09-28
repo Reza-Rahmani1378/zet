@@ -1,4 +1,4 @@
-#Performance in Multithreading
+# Performance in Multithreading
 
 - **Latency** - The time to completion of a task. Measured in time units
 
