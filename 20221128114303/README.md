@@ -8,6 +8,7 @@ Before you go any further, it is important to understand how primary keys work i
 
 The primary key of a ClickHouse table determines how the data is sorted when written to disk. Every 8,192 rows or 10MB of data (referred to as the **index granularity**) creates an entry in the primary key index file. This granularity concept creates a sparse index that can easily fit in memory, and the granules represent a stripe of the smallest amount of column data that gets processed during **`SELECT`** queries.
 
+**`The primary key is also the sorting key.`**
 **Related** :
 ```
 #java #clickhouse #vector
